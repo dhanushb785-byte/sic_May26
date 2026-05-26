@@ -1,0 +1,19 @@
+Brute Force : Bubble Sort ,Selection Sort
+Decrease and Conquer : Insertion Sort
+Divide an conquer : Merge Sort ,Quick Sort 
+Combination of Algorithms Sortings : Bucket Sort
+Non Comparitive Sorting : radix Sort
+____________________________________________________________________ 
+bubble sort Algorithm:
+for i from 0 to n-2 :
+    sorted =True 
+    for j from 0 to n-2-i
+        if elemnts[j] > elemnts[j+1] :
+                sorted = False
+                elemnts[j]  ,  elemnts[j+1]= elemnts[j+1] , elemnts[j] 
+    if sorted:
+        break
+____________________________________________________________________
+
+    INSERTION SORT:
+    
